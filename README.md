@@ -62,9 +62,11 @@ At this point I had finished my code, but there were bugs that I couldn't find. 
 import math
 import random
 
-numbers = [4,8,14,19,20,22,24,27,30,55]
-
-target = numbers[random.randint(0,9)] # Fixed
+numbers = [random.randint(1,10),random.randint(11,20),random.randint(21,30),random.randint(31,40),random.randint(41,50),random.randint(51,60),random.randint(61,70),random.randint(71,80),random.randint(81,90),random.randint(91,100)]
+# Each value in numbers list is in a new interval of 10s to make sure the list is already sorted
+print("Given list is: ", numbers)
+userinput = input("Choose a number from the list to search for: ")
+target = int(userinput)
 print("Target value is: ", target)
 
 def jump(list,target):
