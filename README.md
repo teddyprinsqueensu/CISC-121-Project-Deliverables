@@ -1,4 +1,3 @@
-# CISC-121-Project-Deliverables
 ## Chosen Algorithm & Why: 
 I have chosen Jump Search as my algorithm to visualize since I believe that it is a unique, yet not too complex algorithm. The jumping pattern ans final linear scan are pretty easy to represent visually, making the two phases of the algorithm simple to understand. This visualization will also help explain time complexity in a better way than just "the big O," by showing how Jump Search reduces the number of comparisons compared to linear search.
 
@@ -271,7 +270,11 @@ with gr.Blocks() as demo:
 demo.launch()  # Launch Gradio app
 ```
 ## Steps to Run
-Visit: https://huggingface.co/spaces/teddyprins/CISC121-Final-Project
+- Visit: https://huggingface.co/spaces/teddyprins/CISC121-Final-Project
+- Enter a number FROM THE GIVEN LIST to search for
+- If you want a new list press the "New List" button
+- To run and search for the target number you have chosen, press "Run"
+- Steps to how it found your number are listed below in the "Textbox"
 ## Testing and Verification
 ### 1. Edge Cases
 #### Edge Case: Minimum Value IN the Set
@@ -292,3 +295,12 @@ Visit: https://huggingface.co/spaces/teddyprins/CISC121-Final-Project
 
 ### 2. Example Runs
 
+#### Instance: Jump Search Jumps Right on Target Value
+
+![](JumpsONtarget.png)
+
+#### Instance: Jump Search Jumps Past Target Value
+
+![](JumpsPASTtarget.png)
+
+I feel like i've shown pretty much every case at this point unless you want me to get super specific.
