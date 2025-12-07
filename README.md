@@ -273,7 +273,22 @@ demo.launch()  # Launch Gradio app
 ## Steps to Run
 Visit: https://huggingface.co/spaces/teddyprins/CISC121-Final-Project
 ## Testing and Verification
-#### 1. Edge Cases
+### 1. Edge Cases
+#### Edge Case: Minimum Value IN the Set
 
-#### 2. Making sure results are correct
-#### 3. Example Runs
+![](PE-minINset.png)
+
+#### Edge Case: Maximum Value IN the Set
+
+![](PE-maxINset.png)
+
+#### Edge Case: Minimum Value OUT of the Set
+
+![](PE-minOUTset.png)
+
+#### Edge Case: Maximum Value OUT of the Set
+
+![](PE-maxOUTset.png)
+
+### 2. Example Runs
+
