@@ -304,3 +304,6 @@ demo.launch()  # Launch Gradio app
 ![](JumpsPASTtarget.png)
 
 I feel like i've shown pretty much every case at this point unless you want me to get super specific.
+
+## Author and Acknowledgement
+This program was created by Teddy Prins in Python with use of Gradio and ChatGPT.
