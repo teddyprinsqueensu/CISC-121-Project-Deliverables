@@ -270,3 +270,10 @@ with gr.Blocks() as demo:
 
 demo.launch()  # Launch Gradio app
 ```
+## Steps to Run
+Visit: https://huggingface.co/spaces/teddyprins/CISC121-Final-Project
+## Testing and Verification
+#### 1. Edge Cases
+
+#### 2. Making sure results are correct
+#### 3. Example Runs
